@@ -171,11 +171,17 @@ div.buttons {
     border: 1px solid red;
     display: inline;
     text-align: center;
+    padding: 2%;
 }
 
-.footer button {
-    border: 2px solid black;
+.footer div {
     width: 20%;
-
+    border: 2px solid black;
+    margin-bottom: 2%;
+    text-align: center;
+    padding: 1%;
 }
+
+
+
 
