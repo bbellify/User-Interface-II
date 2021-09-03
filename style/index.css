@@ -45,9 +45,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-/* general styles */
-
+/* 
 * {
     box-sizing: border-box;
     padding: 0;
@@ -65,15 +63,6 @@ body {
     line-height: 1.5;
     font-family: 'Montserrat', sans-serif;
 }
-
-
-
-
-/* 
-font-family: 'Lily Script One', cursive;
-font-family: 'Montserrat', sans-serif; */
-
-/* body styles */
 
 .nav {
     background-color: #C1E1C1;
@@ -104,7 +93,6 @@ div.buttons {
     background-color: black;
 }
 
-/* header */
 div.header {
     display: flex;
 }
@@ -150,8 +138,6 @@ div.header {
     font-size: 2.3rem;
 }
 
-/* gallery */
-
 .gallery-top, .gallery-bottom {
     display: flex;
     justify-content: space-around;
@@ -177,8 +163,6 @@ div.gallery-image p {
     margin-top: 3%;
 }
 
-
-/* footer */
 .footer {
     background-color: #C1E1C1;
     display: flex;
@@ -207,8 +191,38 @@ div.gallery-image p {
 .footer a:active {
     color: white;
     background-color: black;
+} */
+
+header {
+    background-color: lightgrey;
+    padding: 20px;
+    margin-bottom: 15px;   
 }
 
+.topsection {
+    display: flex;
+    justify-content: center;
+}
 
+.description {
+    padding: 20px;
+    align-self: flex-end;
+    width: 50%;
+}
 
+.row  {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.portfolio-element {
+    text-align: center;
+}
+
+footer {
+    background-color: lightgrey;
+    text-align: center;
+    padding: 20px;
+}
 
