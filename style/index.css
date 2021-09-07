@@ -75,7 +75,7 @@ font-family: 'Montserrat', sans-serif; */
 
 /* body styles */
 
-.nav {
+#nav {
     background-color: #C1E1C1;
     padding: 2%;
 
@@ -107,9 +107,10 @@ div.buttons {
 /* header */
 div.header {
     display: flex;
+    margin: 1% 0;
 }
 
-.header .profile-pic {
+.profile-pic {
     width: 50%;
     margin: 1%;
 }
@@ -210,5 +211,84 @@ div.gallery-image p {
 }
 
 
+@media(max-width: 800px) {
+    h1 {
+        font-size: 4rem;
+    }
+    .header-copy h2 {
+        font-size: 2rem;
+    }
+    .header-copy a {
+        font-size: 1.5rem;
+    }
+    .header-copy p {
+        font-size: 1.8rem;
+   } 
+}
 
+@media(max-width: 500px) {
+    #nav {
+        background-color: white;
+    }
+    .nav div {
+        width: 100%;
+    }
+    h1 {
+        font-size: 3rem;
+        padding: 5%;
+   }
+    div.nav {
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 5%;
+   }
+    div.buttons {
+        width: 50%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .buttons a {
+        width: 70%;
+    }
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-copy {
+        text-align: center;
+        align-self: center;
+        width: 75%;
+    }
+    .header-copy p {
+        font-size: 1.5rem;
+    }
 
+    #gallery {
+        display: flex;
+        
+    }
+    .gallery-top, .gallery-bottom {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    
+
+    div.gallery-image {
+        width: 80%;
+        margin-bottom: 8%;
+    }
+
+    .footer h2 {
+        font-size: 2rem;
+    }
+    .footer a {
+        font-size: 1.5rem;
+    }
+}
