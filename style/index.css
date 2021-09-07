@@ -107,9 +107,10 @@ div.buttons {
 /* header */
 div.header {
     display: flex;
+    margin: 1% 0;
 }
 
-.header .profile-pic {
+.profile-pic {
     width: 50%;
     margin: 1%;
 }
@@ -210,5 +211,19 @@ div.gallery-image p {
 }
 
 
+@media(max-width: 800px) {
+    .header-copy h2 {
+        font-size: 2rem;
+    }
+    .header-copy a {
+        font-size: 1.5rem;
+    }
+    .header-copy p {
+        font-size: 1.8rem;
+    }
+   } 
+}
 
+@media(max-width: 500px) {
 
+}
