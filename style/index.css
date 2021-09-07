@@ -75,7 +75,7 @@ font-family: 'Montserrat', sans-serif; */
 
 /* body styles */
 
-.nav {
+#nav {
     background-color: #C1E1C1;
     padding: 2%;
 
@@ -212,6 +212,9 @@ div.gallery-image p {
 
 
 @media(max-width: 800px) {
+    h1 {
+        font-size: 4rem;
+    }
     .header-copy h2 {
         font-size: 2rem;
     }
@@ -224,5 +227,24 @@ div.gallery-image p {
 }
 
 @media(max-width: 500px) {
-
+    h1 {
+        font-size: 3rem;
+   }
+    div.nav {
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+   }
+    .buttons {
+        width: 50%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+    .buttons a {
+        width: 70%;
+    }
 }
